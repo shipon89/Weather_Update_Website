@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerlink}}
+</head>
+<body>
+   {{>navbar}}
+<section id="contact">
+
+    <div class="fcf-body">
+
+        <div id="fcf-form">
+        <h3 style="text-align: center;" class="fcf-h3">Contact us</h3>
+    
+        <form id="fcf-form-id" class="fcf-form-class" method="post">
+            
+            <div class="fcf-form-group">
+                <label for="Name" class="fcf-label">Your name</label>
+                <div class="fcf-input-group">
+                    <input type="text" id="Name" name = "your_name" class="fcf-form-control" required>
+                </div>
+            </div>
+
+            <div class="fcf-form-group">
+                <label for="number" class="fcf-label">Your number</label>
+                <div class="fcf-input-group">
+                    <input type="number" id="number" name = "your_no" class="fcf-form-control" required>
+                </div>
+            </div>
+    
+            <div class="fcf-form-group">
+                <label for="Email" class="fcf-label">Your email address</label>
+                <div class="fcf-input-group">
+                    <input type="email" id="Email" name = "email_address" class="fcf-form-control" required>
+                </div>
+            </div>
+    
+            <div class="fcf-form-group">
+                <label for="Message" class="fcf-label">Your message</label>
+                <div class="fcf-input-group">
+                    <textarea id="Message" name="msg" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                </div>
+            </div>
+            <center>
+            <div class="fcf-form-group">
+                
+                <button type="submit" id="fcf-button" name = "submit_info" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block" style="text-align: center;">Send Message</button>
+            </div>
+        </center>
+        </form>
+        </div>
+    
+    </div>
+
+    
+
+</section>
+    
+{{>footer}}
+</body>
+</html>
